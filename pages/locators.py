@@ -6,5 +6,6 @@ class MainPageLocators():
 
 
 class LoginPageLocators():
-    LOGIN_INPUT = (By.CSS_SELECTOR, "button.login_submit")
-    LOGIN_REGISTRATION = (By.CSS_SELECTOR, "button.registration_submit")
+    LOGIN_URL = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_INPUT = (By.CSS_SELECTOR, "#login_form")
+    LOGIN_REGISTRATION = (By.CSS_SELECTOR, "#register_form")
