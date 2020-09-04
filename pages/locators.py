@@ -16,3 +16,4 @@ class ProductPageLocators():
     PRICE_BOOK = (By.CSS_SELECTOR, "p.price_color")
     NAME_BOOK_IN_MESSAGE = (By.CSS_SELECTOR, "#messages>div:nth-child(1) strong")
     PRICE_BOOK_IN_MESSAGE = (By.CSS_SELECTOR, "#messages>div:nth-child(3) strong")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages>div:nth-child(1)")
